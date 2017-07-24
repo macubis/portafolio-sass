@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$(".button-collapse").sideNav();
 	$(".dropdown-button").dropdown();
-	$('.carousel.carousel-slider').carousel({fullWidth: true});
+	 $('.slider').slider();
 	$('input#input_text, textarea#textarea1').characterCounter();
  
         

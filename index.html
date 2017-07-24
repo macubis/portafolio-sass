@@ -6,12 +6,13 @@
 	<title>Material Design</title>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 	<ul id="dropdown1" class="dropdown-content">
-  		<li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>1 minute setup</a></li>
-  		<li><a href="#"><i class="fa fa-rocket" aria-hidden="true"></i>Fast Updates & Support</a></li>
-  		<li><a href="#"><i class="fa fa-eye" aria-hidden="true"></i>Live Customizer</a></li>
+  	<li><a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i>1 minute setup</a></li>
+  	<li><a href="#"><i class="fa fa-rocket" aria-hidden="true"></i>Fast Updates & Support</a></li>
+  	<li><a href="#"><i class="fa fa-eye" aria-hidden="true"></i>Live Customizer</a></li>
 		<li><a href="#"><i class="fa fa-video-camera" aria-hidden="true"></i>Video Tutorials</a></li>
 		<li><a href="#"><i class="fa fa-picture-o" aria-hidden="true"></i>Custom Backgrounds</a></li>
 		<li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i>Responsive Design</a></li>
@@ -35,7 +36,7 @@
 
 	<nav>
     	<div class="nav-wrapper">
-      		<a href="#!" class="brand-logo">Hestia Pro</a>
+      		<a href="#!" class="logo">Hestia Pro</a>
       		<a href="#" data-activates="mobile-demo" class="button-collapse rigth"><i class="material-icons">menu</i></a>
       		<ul class="right hide-on-med-and-down">
       			<li>
@@ -66,28 +67,27 @@
     	</div>
   	</nav>
   	<section class="uno">
-  		<div class="carousel carousel-slider center" data-indicators="true">
-    		<div class="carousel-fixed-item center">
-      		<a class="btn waves-effect white grey-text darken-text-2">See More</a>
-    		</div>
-    		<div class="carousel-item" href="#one!">
-    			<div class="transparente">
-      				<h1>Slick Material Design</h1>
-      				<p>Beautifil, Elegantly Coded, One-Page WordPress Theme for Business</p>
-      			</div>
-    			<img src="assets/img/img_slider_2.jpg" class="img-responsive" alt="">	
-    		</div>
-    		<div class="carousel-item" href="#two!">
-    			<div class="transparente">
-    				<h1>Simple & Awesome</h1>
-    				<p>Beatiful, Elegantly Coded</p>
-    			</div>
-    			<img src="assets/img/img_slider_1.jpg" alt="">  
-    		</div>
-    	</div>
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="assets/img/img_slider_1.jpg">
+              <div class="caption center-align white-text">
+                <h2><b>Slick Material Design</b></h2>
+                <h6 class="light center-align white-text">Beautifil, Elegantly Coded, One-Page WordPress Theme for Business.</h6>
+              </div>
+          </li>
+          <li>
+            <img src="assets/img/img_slider_2.jpg">
+            <div class="caption center-align white-text">
+              <h2><b>Simple & Awesome</b></h2>
+              <h6 class="light center-align white-text">Beatiful, Elegantly Coded</h6>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="dos">
-    	<div class="container">
+    	<div class="container contenedor">
     		<div class="row">
     			<div class="col s12 m12 l12">
     				<p>
@@ -95,35 +95,35 @@
     				</p>
     			</div>
     		</div>
-    		<div class="row">
-    			<div class="col s12 m4 l4 center">
-    				<a href="#">
-    					<div>
+    		<div class="row parrafos">
+    			<div class="col s12 m4 l4 center columnas">
+    				<a href="#" class="icono">
+    					<div class="figura">
     						<i class="fa fa-mobile" aria-hidden="true"></i>
     					</div>
     				</a>
-    				<h4>Responsive</h4>
-    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis temporibus aperiam omnis esse officiis officia, beatae quidem voluptatem rerum repellat, saepe
+    				<h5><b>Responsive</b></h5>
+    				<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis temporibus aperiam omnis esse officiis officia, beatae quidem voluptatem rerum repellat, saepe
     				</p>
     			</div>
-    			<div class="col s12 m4 l4 center">
-    				<a href="#">
-    					<div>
+    			<div class="col s12 m4 l4 center columnas">
+    				<a href="#" class="icono">
+    					<div class="figura2">
     					<i class="fa fa-list" aria-hidden="true"></i>
     					</div>
     				</a>
-    				<h4>Quality</h4>
-    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatibus et laudantium quisquam quo veniam nam aut rem illo quasi fugiat, voluptatum incidunt
+    				<h5><b>Quality</b></h5>
+    				<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatibus et laudantium quisquam quo veniam nam aut rem illo quasi fugiat, voluptatum incidunt
     				</p>
     			</div>
-				<div class="col s12 m4 l4 center">
-    				<a href="#">
-    					<div>
+				<div class="col s12 m4 l4 center columnas">
+    				<a href="#" class="icono">
+    					<div class="figura3">
     					<i class="fa fa-bars" aria-hidden="true"></i>
     					</div>
     				</a>
-    				<h4>Support</h4>
-    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatibus et laudantium quisquam quo veniam nam aut rem illo quasi fugiat, voluptatum incidunt
+    				<h5><b>Support</b></h5>
+    				<p class="texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt voluptatibus et laudantium quisquam quo veniam nam aut rem illo quasi fugiat, voluptatum incidunt
     				</p>
     			</div>
     		</div>

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+nav {
+  background-color: black;
+  padding-left: 20px;
+  z-index: 5;
+  color: #555; }
+
+.dropdown1 li a {
+  color: #555; }
+  .dropdown1 li a i {
+    color: #555; }
+
+section.dos {
+  background: whitesmoke; }
+  section.dos .contenedor {
+    background: white;
+    color: #555;
+    padding: 50px 20px;
+    border: 1px solid #555;
+    overflow: hidden;
+    border-radius: 14px;
+    z-index: 3;
+    position: relative;
+    top: -120px; }
+    section.dos .contenedor .parrafos .columnas a.icono .figura {
+      font-size: 50px;
+      color: #E91E63; }
+    section.dos .contenedor .parrafos .columnas a.icono .figura2 {
+      font-size: 50px;
+      color: #4CAF50; }
+    section.dos .contenedor .parrafos .columnas a.icono .figura3 {
+      font-size: 50px;
+      color: #1E88E5; }
+
+/*# sourceMappingURL=main.css.map */
